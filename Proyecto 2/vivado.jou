@@ -11,3 +11,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.xpr}
+update_compile_order -fileset sources_1

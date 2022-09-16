@@ -105,3 +105,14 @@ Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // WARNING: HEventQueue.dispatchEvent() is taking  7092 ms.
 // HMemoryUtils.trashcanNow. Engine heap size: 758 MB. GUI used memory: 51 MB. Current time: 9/16/22, 10:32:44 AM CST
 // Tcl Message: open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:18 . Memory (MB): peak = 786.797 ; gain = 156.090 
+// Project name: Proyecto 2; location: E:/Proyectos verilog/Lab_Digital/Proyecto 2; part: xc7a35tcpg236-2L
+// [Engine Memory]: 775 MB (+21058kb) [00:00:37]
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  70606 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 808 MB. GUI used memory: 51 MB. Current time: 9/16/22, 11:02:46 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 808 MB. GUI used memory: 47 MB. Current time: 9/16/22, 11:32:46 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 808 MB. GUI used memory: 47 MB. Current time: 9/16/22, 12:02:47 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  47420 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1755 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 808 MB. GUI used memory: 47 MB. Current time: 9/16/22, 12:32:47 PM CST
