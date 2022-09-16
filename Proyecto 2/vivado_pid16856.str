@@ -1,0 +1,107 @@
+/*
+
+Xilinx Vivado v2018.3.1 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2489853 on Tue Mar 26 04:20:25 MDT 2019
+IP Build: 2486929 on Tue Mar 26 06:44:21 MDT 2019
+
+Process ID (PID): 16856
+License: Customer
+
+Current time: 	Fri Sep 16 10:32:27 CST 2022
+Time zone: 	Central Standard Time (America/Regina)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 35 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	E:/sistema/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	E:/sistema/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	rstev
+User home directory: C:/Users/rstev
+User working directory: E:/Proyectos verilog/Lab_Digital/Proyecto 2
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: E:/sistema/Vivado
+HDI_APPROOT: E:/sistema/Vivado/2018.3
+RDI_DATADIR: E:/sistema/Vivado/2018.3/data
+RDI_BINDIR: E:/sistema/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/rstev/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/rstev/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/rstev/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	E:/sistema/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Proyectos verilog/Lab_Digital/Proyecto 2/vivado.log
+Vivado journal file location: 	E:/Proyectos verilog/Lab_Digital/Proyecto 2/vivado.jou
+Engine tmp dir: 	E:/Proyectos verilog/Lab_Digital/Proyecto 2/.Xil/Vivado-16856-DESKTOP-ETTCKFL
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/sistema/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: E:/sistema/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: E:/sistema/Vivado/2018.3
+XILINX_SDK: E:/sistema/SDK/2018.3
+XILINX_VIVADO: E:/sistema/Vivado/2018.3
+XILINX_VIVADO_HLS: E:/sistema/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 605 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 79 MB (+80521kb) [00:00:16]
+// [Engine Memory]: 585 MB (+462129kb) [00:00:16]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: E:\Proyectos verilog\Lab_Digital\Proyecto 2\Proyecto 2.xpr. Version: Vivado v2018.3.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 605 MB. GUI used memory: 48 MB. Current time: 9/16/22, 10:32:29 AM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/sistema/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 106 MB (+24030kb) [00:00:30]
+// [Engine Memory]: 719 MB (+109540kb) [00:00:30]
+// WARNING: HEventQueue.dispatchEvent() is taking  7092 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 758 MB. GUI used memory: 51 MB. Current time: 9/16/22, 10:32:44 AM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:18 . Memory (MB): peak = 786.797 ; gain = 156.090 

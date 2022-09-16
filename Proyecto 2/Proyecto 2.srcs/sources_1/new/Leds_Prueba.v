@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 14.09.2022 20:05:40
+// Create Date: 15.09.2022 22:23:43
 // Design Name: 
-// Module Name: Activador
+// Module Name: Leds_Prueba
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,15 +20,22 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Activador(
-input clk,
-input act, 
-output reg inicio
+module Leds_Prueba(
+   input clk, 
+   input [7:0] sus,
+   input inicio,
+    output reg [2:0] Led
     );
+    
     always @(posedge clk)
-    if (act) begin
-        inicio <= 1; 
-    end else begin
-        inicio <= 0; 
-        end
+    begin
+    if (inicio) begin
+        case (sus)
+        8'b00000001: Led[0] <= 1;
+        8'b00000010: Led[1] <= 1;
+        8'b00000100: Led[2] <= 1;
+        default Led[2:0] <=0;
+        endcase
+    end
+    end
 endmodule

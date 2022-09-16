@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Thu Sep 15 22:34:15 2022
+# Process ID: 15556
+# Current directory: E:/Proyectos verilog/Lab_Digital/Proyecto 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11144 E:\Proyectos verilog\Lab_Digital\Proyecto 2\Proyecto 2.xpr
+# Log file: E:/Proyectos verilog/Lab_Digital/Proyecto 2/vivado.log
+# Journal file: E:/Proyectos verilog/Lab_Digital/Proyecto 2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/sistema/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 766.434 ; gain = 165.461
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+[Thu Sep 15 22:35:04 2022] Launched synth_1...
+Run output will be captured here: E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu Sep 15 22:35:47 2022] Launched synth_1...
+Run output will be captured here: E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu Sep 15 22:36:51 2022] Launched synth_1...
+Run output will be captured here: E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Sep 15 22:41:03 2022] Launched impl_1...
+Run output will be captured here: E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.runs/impl_1/runme.log
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+[Thu Sep 15 22:42:59 2022] Launched synth_1...
+Run output will be captured here: E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.runs/synth_1/runme.log
+[Thu Sep 15 22:42:59 2022] Launched impl_1...
+Run output will be captured here: E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+[Thu Sep 15 22:44:09 2022] Launched synth_1...
+Run output will be captured here: E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.runs/synth_1/runme.log
+[Thu Sep 15 22:44:09 2022] Launched impl_1...
+Run output will be captured here: E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 15 22:45:42 2022...

@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 14.09.2022 20:05:40
+// Create Date: 15.09.2022 16:05:14
 // Design Name: 
-// Module Name: Activador
+// Module Name: Led_Roja
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,15 +20,23 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Activador(
-input clk,
-input act, 
-output reg inicio
+module Led_Roja(
+   input clk,
+   input [7:0] sus,
+   input inicio,
+    output reg Led_R
     );
+    
     always @(posedge clk)
-    if (act) begin
-        inicio <= 1; 
-    end else begin
-        inicio <= 0; 
-        end
+    begin
+    if (inicio) begin
+        case (sus)
+        8'b00000001: Led_R <= 0;
+        8'b00000010: Led_R <= 0;
+        8'b00000100: Led_R <= 0;
+        default Led_R <=1;
+        endcase
+    end
+    end
+    
 endmodule

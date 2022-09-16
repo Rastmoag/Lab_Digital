@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 14.09.2022 20:05:40
+// Create Date: 15.09.2022 16:13:22
 // Design Name: 
-// Module Name: Activador
+// Module Name: Main
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,15 +20,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Activador(
+module Main(
 input clk,
-input act, 
-output reg inicio
+input [2:0] sel, 
+input cin, 
+output [2:0] led,
+output LEDR
     );
-    always @(posedge clk)
-    if (act) begin
-        inicio <= 1; 
-    end else begin
-        inicio <= 0; 
-        end
+   wire inicio; 
+   wire [7:0] sus;     
+  
+ Activador(clk, cin, inicio); 
+ Seleccionador(clk, sel, sus); 
+ Leds_Prueba(clk, sus, inicio, led); 
+ Led_Roja(clk, sus, inicio, LEDR); 
 endmodule

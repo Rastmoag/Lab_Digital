@@ -21,10 +21,11 @@
 
 
 module Seleccionador(
+input clk, 
 input [2:0] sel, 
 output reg [7:0] sus
 );
-    always @(*)
+    always @(posedge clk)
     begin
     case (sel)
     0: sus <= 8'b00000001;
