@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Fri Sep 16 10:31:57 2022
+# Process ID: 16856
+# Current directory: E:/Proyectos verilog/Lab_Digital/Proyecto 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8196 E:\Proyectos verilog\Lab_Digital\Proyecto 2\Proyecto 2.xpr
+# Log file: E:/Proyectos verilog/Lab_Digital/Proyecto 2/vivado.log
+# Journal file: E:/Proyectos verilog/Lab_Digital/Proyecto 2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/sistema/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:18 . Memory (MB): peak = 786.797 ; gain = 156.090
+update_compile_order -fileset sources_1

@@ -31,10 +31,8 @@ set_property target_language Verilog [current_project]
 set_property ip_output_repo {e:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Activador.v}
   {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Led_Roja.v}
   {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Leds_Prueba.v}
-  {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Seleccionador.v}
   {E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Main.v}
 }
 # Mark all dcp files as not used in implementation to prevent them from being

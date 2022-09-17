@@ -22,20 +22,29 @@
 
 module Leds_Prueba(
    input clk, 
-   input [7:0] sus,
+   input gel, lub, pin, sr, 
    input inicio,
-    output reg [2:0] Led
+   output reg ledg, ledl, ledp
     );
     
     always @(posedge clk)
     begin
-    if (inicio) begin
-        case (sus)
-        8'b00000001: Led[0] <= 1;
-        8'b00000010: Led[1] <= 1;
-        8'b00000100: Led[2] <= 1;
-        default Led[2:0] <=0;
-        endcase
-    end
-    end
+    if (inicio & gel & ~sr) begin
+       ledg <=1; 
+       ledl <=0;
+       ledp <=0;
+    end else if (inicio & lub & ~sr) begin
+       ledg <=0; 
+       ledl <=1;
+       ledp <=0;
+    end else if (inicio & pin & ~sr) begin
+       ledg <=0; 
+       ledl <=0;
+       ledp <=1;
+    end else
+       ledg <=0; 
+       ledl <=0;
+       ledp <=0;
+       end
+    
 endmodule

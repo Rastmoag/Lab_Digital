@@ -22,16 +22,12 @@
 
 module Main(
 input clk,
-input [2:0] sel, 
-input cin, 
-output [2:0] led,
-output LEDR
+input gel, lub, pin, cin,
+output ledg, ledl, ledp, ledr
     );
-   wire inicio; 
-   wire [7:0] sus;     
+   wire sr;     
   
- Activador(clk, cin, inicio); 
- Seleccionador(clk, sel, sus); 
- Leds_Prueba(clk, sus, inicio, led); 
- Led_Roja(clk, sus, inicio, LEDR); 
+ Led_Roja(clk, gel, lub, pin, cin, ledr, sr);   
+ Leds_Prueba(clk, gel, lub, pin, sr, cin, ledg, ledl, ledp); 
+
 endmodule

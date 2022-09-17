@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3.1 (win64) Build 2489853 Tue Mar 26 04:20:25 MDT 2019
-| Date         : Fri Sep 16 16:53:33 2022
+| Date         : Fri Sep 16 18:52:55 2022
 | Host         : DESKTOP-ETTCKFL running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Main_control_sets_placed.rpt
 | Design       : Main
@@ -23,8 +23,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     6 |
-| Unused register locations in slices containing registers |    35 |
+| Number of unique control sets                            |     2 |
+| Unused register locations in slices containing registers |    14 |
 +----------------------------------------------------------+-------+
 
 
@@ -34,9 +34,7 @@ Table of Contents
 +--------+--------------+
 | Fanout | Control Sets |
 +--------+--------------+
-|      1 |            4 |
-|      4 |            1 |
-|      5 |            1 |
+|      1 |            2 |
 +--------+--------------+
 
 
@@ -46,27 +44,23 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               5 |            2 |
+| No           | No                    | No                     |               1 |            1 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |               4 |            1 |
-| Yes          | No                    | No                     |               4 |            4 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |               0 |            0 |
+| Yes          | Yes                   | No                     |               1 |            1 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+----------------+-----------------------+------------------+------------------+----------------+
-|  Clock Signal  |     Enable Signal     | Set/Reset Signal | Slice Load Count | Bel Load Count |
-+----------------+-----------------------+------------------+------------------+----------------+
-|  clk_IBUF_BUFG | nolabel_line33/inicio |                  |                1 |              1 |
-|  clk_IBUF_BUFG | nolabel_line34/E[0]   |                  |                1 |              1 |
-|  clk_IBUF_BUFG | nolabel_line34/E[2]   |                  |                1 |              1 |
-|  clk_IBUF_BUFG | nolabel_line34/E[1]   |                  |                1 |              1 |
-|  clk_IBUF_BUFG |                       | sel_IBUF[1]      |                1 |              4 |
-|  clk_IBUF_BUFG |                       |                  |                2 |              5 |
-+----------------+-----------------------+------------------+------------------+----------------+
++----------------+-----------------------+-----------------------------+------------------+----------------+
+|  Clock Signal  |     Enable Signal     |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++----------------+-----------------------+-----------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                       |                             |                1 |              1 |
+|  clk_IBUF_BUFG | nolabel_line30/p_0_in | nolabel_line30/ledr_i_1_n_0 |                1 |              1 |
++----------------+-----------------------+-----------------------------+------------------+----------------+
 
 
