@@ -1,5 +1,9 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: E:/sistema/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d51dbe42bd2e4555bb53419c37828ed8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Main_behav xil_defaultlib.Main xil_defaultlib.glbl -log elaborate.log 
+Running: E:/sistema/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d51dbe42bd2e4555bb53419c37828ed8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Main_tb_behav xil_defaultlib.Main_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
+ERROR: [VRFC 10-3180] cannot find port 'sr' on this module [E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sim_1/new/Main_tb.v:37]
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Main.v:30]
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Main.v:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

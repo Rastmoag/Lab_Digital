@@ -1,12 +1,8 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Activador.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Activador
 INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Led_Roja.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Led_Roja
 INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Leds_Prueba.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Leds_Prueba
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Seleccionador.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Seleccionador
 INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sources_1/new/Main.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Main
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Proyectos verilog/Lab_Digital/Proyecto 2/Proyecto 2.srcs/sim_1/new/Main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_tb

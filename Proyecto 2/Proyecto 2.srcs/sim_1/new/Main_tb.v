@@ -20,7 +20,33 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Main_tb(
+module Main_tb;
+reg clk, gel, lub, pin, cin;
+wire ledg, ledl, ledp, ledr, sr;
 
-    );
+Main uut(
+.clk(clk),
+.gel(gel),
+.lub(lub), 
+.pin(pin), 
+.cin(cin), 
+.ledg(ledg),
+.ledl(ledl),
+.ledp(ledp),
+.ledr(ledr),
+.sr(sr)
+);   
+ initial begin
+// Initialize Inputs
+clk = 0;
+#10 gel = 1;
+#10 gel = 0;
+#10 lub = 1;
+#10 lub = 0;
+#10 pin = 1;
+#10 pin = 0;
+#10 gel = 1;
+#10 cin = 1;
+end
+always #5 clk = ~clk;
 endmodule
